@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Serif Display", serif;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  z-index: 2;
+}
+
+.logo {
+  display: flex;
+  flex: 2;
+  align-self: center;
+  margin-left: 150px;
+}
+
+.navigations {
+  display: flex;
+  align-self: center;
+  list-style: none;
+  flex: 1.4;
+  z-index: 2;
+  
+}
+
+.navigation {
+  margin-right: 40px;
+  color: hsl(273, 4%, 51%);
+  cursor: pointer;
+}
+
+.navigation:hover {
+   color: hsl(270, 9%, 17%); 
+}
+
+.view {
+   border: 1px solid hsl(270, 9%, 17%);
+   color: hsl(270, 9%, 17%);
+   padding: 2px 12px;
+}
+
+.view:hover {
+   background: hsl(256, 26%, 20%);
+   color: hsl(0, 0%, 98%);
+   cursor: pointer;
+}
+
+.thumb {
+  background: hsl(256, 26%, 20%);
+  height: 400px;
+  z-index: 2;
+}
+
+hr {
+  margin-left: 140px;
+  width: 90px;
+  padding-top: 50px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-bottom: 30px;
+}
+
+h5 {
+  color: hsl(0, 0%, 98%);
+  margin-left: 140px;
+  font-size: 46px;
+  width: 320px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+p {
+  color: hsl(0, 0%, 98%);
+  margin-left: 140px;
+  width: 500px;
+  font-size: 15px;
+  line-height: 21px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+.plans {
+  margin-left: 140px;
+  border: 1px hsl(0, 0%, 98%) solid;
+  background-color: transparent;
+  font-size: 13px;
+  color: hsl(0, 0%, 98%);
+  padding: 0px 23px;
+  height: 27px;
+  cursor: pointer;
+}
+
+.plans:hover {
+   background: hsl(0, 0%, 98%);
+   color: hsl(256, 26%, 20%);
+}
+
+img {
+  position: absolute;
+  right: 100px;
+  top: 90px;
+  transform: scale(0.9);
+}
+
+.pattern-right {
+  position: absolute;
+  top: 0px;
+  right: -45px;
+  transform: scale(0.8);
+  z-index: 1;
+}
+
+.pattern-left {
+  position: absolute;
+  left: 0px;
+}
+
+h6 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-left: 120px;
+  position: relative;
+  top: 290px;
+}
+
+#hr2 {
+  position: relative;
+  top: 290px;
+  margin-left: 120px;
+  border-bottom: 1px solid hsl(273, 4%, 51%);
+}
+
+main {
+  height: 1150px;
+  z-index: 3;
+  background: ;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+  margin-left: 120px;
+  position: relative;
+  top: 350px;
+}
+
+.grid-item {
+  width: 400px;
+}
+
+.carousel-title {
+  color: black;
+  margin-left: 0px;
+  margin-top: 20px;
+  font-size: 35px;
+}
+
+.carousel-description {
+  color: hsl(273, 4%, 51%);
+  margin-left: 0px;
+  width: 400px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.how-we-work {
+  position: relative;
+  top: 450px;
+  display: flex;
+  background: hsl(256, 26%, 20%);
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  height: 150px;
+}
+
+.work-title {
+  margin-left: 120px;
+  color: hsl(0, 0%, 98%);
+  font-weight: lighter;
+  width: 280px;
+  align-self: center;
+}
+
+.work {
+  height: 37px;
+  margin-right: -px;
+  align-self: center;
+  background: transparent;
+  border: hsl(0, 0%, 98%) solid 1px;
+  color: hsl(0, 0%, 98%);
+  padding-top: 3px;
+  padding-right: 20px;
+  padding-left: 20px;
+  z-index: 2;
+  position: absolute;
+  right: 120px;
+}
+
+.work:hover {
+   background: hsl(0, 0%, 98%);
+   color: hsl(256, 26%, 20%);
+   cursor: pointer;
+}
+.work-background {
+  position: absolute;
+  top: 0px;
+  right: 60px;
+  height: 150px;
+  float: right;
+  margin: 0px;
+  z-index: 1;
+  width: 400px;
+}
+
+footer {
+  background: hsl(0, 0%, 98%);
+  height: 400px;
+}
+
+.logo-footer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+}
+
+.footer-header {
+  display: flex;
+  position: absolute;
+  top: 1680px;
+  margin-left: 180px;
+  
+ 
+}
+
+.social-media {
+  display: flex;
+  list-style: none;
+  margin-left: 1100px;
+}
+
+.media {
+   margin-right: 10px;   
+}
+
+.twitter {
+   margin-top: 2px;
+}
+
+.footer-hr {
+   border-bottom:  hsl(273, 4%, 51%) 1px solid;
+   padding: 0;
+   position: absolute;
+   top: 1730px;
+   left: 40px;
+   width: 1240px;
+
+
+}
+
+.grid-footer {
+   display: grid;
+   grid-template-columns: 300px  300px 300px 300px;
+   margin-left: 185px;
+   position: relative;
+   bottom: 80px;
+}
+
+
+
+ul {
+   list-style: none;
+}
+
+h4 {
+   margin-bottom: 30px;
+   color:  hsl(273, 4%, 51%);
+   font-size: 15px;
+}
+
+.footer-list {
+   margin-bottom: 10px; 
+   color: hsl(273, 4%, 51%);
+   font-size: 13px;
+   cursor: pointer;
+   width: fit-content
+}
+
+.footer-list:hover {
+   
+   color: hsl(270, 9%, 17%);
+}
